@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Calc.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Calculator Web Application</a> &gt; <a href="index.source.html" class="el_package">calc.calc.sq.mvn</a> &gt; <span class="el_source">Calc.java</span></div><h1>Calc.java</h1><pre class="source lang-java linenums">package calc.calc.sq.mvn;
+/*
+ * This code is for simple arithmetic calculation
+ */
+<span class="fc" id="L5">public class Calc {</span>
+    public double doAdd(double a, double b){
+<span class="fc" id="L7">    	double sum = 0;</span>
+<span class="fc" id="L8">    	sum = a + b;</span>
+<span class="fc" id="L9">        return sum;</span>
+    }
+    public double doSub(double num1, double num2){
+<span class="fc" id="L12">        double sub = 0;</span>
+<span class="fc" id="L13">        sub = num1 - num2;</span>
+<span class="fc" id="L14">    	return sub;</span>
+    }
+    public double doMul(double num1, double num2){
+<span class="fc" id="L17">        return num1 * num2;</span>
+    }
+    public double doDiv(double num1, double num2) throws Exception{
+<span class="fc bfc" id="L20" title="All 2 branches covered.">        if(num2 == 0){</span>
+<span class="fc" id="L21">        	throw new Exception();</span>
+        }
+<span class="fc" id="L23">    	return num1 / num2;</span>
+    }
+	public double changeSign(double num){
+<span class="nc" id="L26">        return -1 * num;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.1.201803210924</span></div></body></html>

@@ -1,6 +1,6 @@
-projectKey=CalcKey
+projectKey=trranjith-calc-key
 serverUrl=http://localhost:9000
 serverVersion=6.7.6.38781
-dashboardUrl=http://localhost:9000/dashboard/index/CalcKey
-ceTaskId=AWtLDomoq070JqZyrchv
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AWtLDomoq070JqZyrchv
+dashboardUrl=http://localhost:9000/dashboard/index/trranjith-calc-key
+ceTaskId=AX6vMn-p13xl_RnM5AGz
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX6vMn-p13xl_RnM5AGz

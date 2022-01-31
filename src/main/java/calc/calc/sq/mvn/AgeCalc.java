@@ -2,7 +2,7 @@ package calc.calc.sq.mvn;
 import java.time.LocalDate;
 import java.time.Period;
 
-import java.io.Externalizable;
+
 import java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
