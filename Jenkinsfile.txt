@@ -7,11 +7,6 @@ pipeline {
                 bat 'mvn -v '
             }
         }
-        stage('Clone Calci Repository') {
-            steps {
-                git credentialsId: 'github_id', url: 'https://github.com/trranjith/calc.sq.maven.git'
-            }
-        }
         stage('Compile and Package') {
             steps {
                 bat 'mvn clean install'
