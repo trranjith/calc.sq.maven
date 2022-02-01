@@ -17,7 +17,7 @@
 <table class=tableclass>
 <tr>
 <td>
-<h1 class=alignmiddle> Simple Calculator</h1>
+<h1 class=alignmiddle>Ranjith Simple Calculator</h1>
 <form method="post" action="SimpleCalc.jsp">
 Number 1 : <input type="text" name="num1" class="alignright"> <br/><br/>
 Number 2 : <input type="text" name="num2" class="alignright"> <br/><br/>
